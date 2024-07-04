@@ -4,7 +4,7 @@ import Logo from '../../../Shared/Logo/Logo';
 
 const FirstOffer = () => {
     return (
-        <div className="my-32">
+        <div className="mt-32 pb-28">
             <div className="relative w-full h-[477px] rounded-3xl overflow-hidden">
                 {/* Background image */}
                 <div
