@@ -3,7 +3,7 @@ import helpImg from "../../../../assets/Rectangle 24.png"
 
 const Mission = () => {
     return (
-        <div className="mt-28">
+        <div className="mt-32">
             <div className="relative flex justify-between">
                 <div className="w-1/2 relative">
                     {/* Help for solution*/}

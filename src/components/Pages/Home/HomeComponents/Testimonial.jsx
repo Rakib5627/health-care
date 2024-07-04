@@ -27,7 +27,7 @@ const Testimonial = () => {
                     <div className="flex items-center gap-2 my-5">
                         <img src={user2} alt="" className=" w-[44px] h-[44px] rounded-full" />
                         <div>
-                            <p className=" text-sm">Michael R,<span className="text-xs text-gray-600">Business Executive</span></p>
+                            <p className=" text-sm">Michael R, <span className="text-xs text-gray-600">Business Executive</span></p>
                             <div className="flex items-center text-[#FFE03D]"><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></div>
                         </div>
                     </div>
@@ -43,6 +43,11 @@ const Testimonial = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="flex justify-center mt-5 gap-2">
+                <div className=" bg-[#020043]/10 p-1 rounded-full w-2 "></div>
+                <div className=" bg-[#FFC637] p-1 rounded-full w-2 "></div>
+                <div className=" bg-[#020043]/10 p-1 rounded-full w-2 "></div>
             </div>
         </div>
     );
