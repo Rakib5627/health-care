@@ -18,7 +18,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <header className="p-4 dark:bg-gray-100 dark:text-gray-800">
+            <header className="py-4 dark:bg-gray-100 dark:text-gray-800">
                 <div className="container flex justify-between h-16 mx-auto">
                     <a rel="noopener noreferrer" href="#" aria-label="Back to homepage" className="flex items-center p-2">
                         <h3 className="flex items-center text-[#020043] font-bold">

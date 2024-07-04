@@ -2,7 +2,7 @@ import offerImg from '../../../../assets/Rectangle 32.png';
 
 const FirstOffer = () => {
     return (
-        <div className="my-20">
+        <div className="my-32">
             <div className="relative w-full h-[477px] rounded-3xl overflow-hidden">
                 {/* Background image */}
                 <div

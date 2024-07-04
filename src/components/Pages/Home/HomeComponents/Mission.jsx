@@ -8,7 +8,7 @@ const Mission = () => {
                 <div className="w-1/2 relative">
                     {/* Help for solution*/}
                     <div className="relative">
-                        <button className="border-2 border-black px-3 py-2 text-sm rounded-3xl">Who We are</button>
+                        <button className="border-2 border-black px-4 py-2 text-sm rounded-3xl">Who We are</button>
                         <h3 className="text-3xl font-semibold my-5">We Help To Get <br /> Solutions</h3>
                         <p className="text-sm mr-20">We are proud to be a trusted healthcare provider in our community, and we look forward to serving you and your family with excellence, integrity, and compassion. Your health is our priority, and we are here for you every step of the way. We believe in treating each patient with dignity, respect, and empathy, ensuring that they receive the attention and care they deserve.
                         </p>
