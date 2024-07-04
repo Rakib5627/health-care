@@ -1,3 +1,4 @@
+import { MdOutlineArrowOutward } from 'react-icons/md';
 import offerImg from '../../../../assets/Rectangle 32.png';
 
 const FirstOffer = () => {
@@ -23,10 +24,10 @@ const FirstOffer = () => {
                     </h1>
                     <div className="flex space-x-4">
                         <button className="px-6 py-3 bg-[#FFC637] hover:bg-[#fcc331] font-semibold rounded-xl">
-                            Appointment
+                        <p className="flex items-center gap-2"> <span>Appointment </span><MdOutlineArrowOutward /></p>
                         </button>
                         <button className="px-6 py-3 bg-transparent border border-white hover:bg-white hover:text-blue-500 text-white font-semibold rounded-xl">
-                            Learn More
+                        <p className="flex items-center gap-2"> <span>Learn More </span><MdOutlineArrowOutward /></p>
                         </button>
                     </div>
                 </div>

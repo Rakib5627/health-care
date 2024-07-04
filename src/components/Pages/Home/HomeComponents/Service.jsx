@@ -1,6 +1,7 @@
 import advanceImg from "../../../../assets/Rectangle 27-2.png"
 import doctorImg from "../../../../assets/Rectangle 27-1.png"
 import healthImg from "../../../../assets/Rectangle 27.png"
+import { MdOutlineArrowOutward } from "react-icons/md";
 
 const Service = () => {
     return (
@@ -11,7 +12,7 @@ const Service = () => {
                     <h3 className=" font-semibold text-3xl my-5">Empowering Health, <br /> Enriching Lives</h3>
                     <p className=" text-sm mb-5">We are committed to providing high-quality,<br /> compassionate care to every patient we serve. <br /> Whatever your healthcare needs may be, you can trust <br /> us to be your partner in health and wellness.</p>
                     <button className="px-6 py-3 bg-[#FFC637] hover:bg-[#fcc331] font-semibold rounded-xl">
-                        Appointment
+                    <p className="flex items-center gap-2"> <span>Appointment </span><MdOutlineArrowOutward /></p>
                     </button>
                 </div>
                 <div className="  relative ">

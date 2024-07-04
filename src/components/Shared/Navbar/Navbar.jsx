@@ -1,3 +1,4 @@
+import { MdOutlineArrowOutward } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -17,7 +18,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div>
+        <div className="mb-4">
             <header className="py-4 dark:bg-gray-100 dark:text-gray-800">
                 <div className="container flex justify-between h-16 mx-auto">
                     <a rel="noopener noreferrer" href="#" aria-label="Back to homepage" className="flex items-center p-2">
@@ -50,7 +51,9 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                     <div className="items-center flex-shrink-0 hidden lg:flex">
-                        <button className="self-center border-2 border-[#343268] px-8 py-3 rounded-xl">Appointment</button>
+                        
+                         <button className="self-center border-2 border-[#343268] px-8 py-3 rounded-xl"><p className="flex items-center gap-1"><span>Appointment</span><MdOutlineArrowOutward /></p></button> 
+                   
                     </div>
                     <button className="p-4 lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6 dark:text-gray-800">
